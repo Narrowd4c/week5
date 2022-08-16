@@ -228,7 +228,7 @@ sup {
 
 a {
   color: #212529;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #1a1e21;
@@ -2772,7 +2772,6 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
@@ -3243,7 +3242,7 @@ textarea.form-control-lg {
 .btn-link {
   font-weight: 400;
   color: #212529;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:hover {
   color: #1a1e21;
@@ -3534,7 +3533,6 @@ textarea.form-control-lg {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -3710,7 +3708,6 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3820,7 +3817,6 @@ textarea.form-control-lg {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 .navbar-nav {
@@ -4571,7 +4567,6 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4853,7 +4848,6 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -7458,7 +7452,7 @@ textarea.form-control-lg {
 }
 
 .fs-8 {
-  font-size: 0.25rem !important;
+  font-size: 0.75rem !important;
 }
 
 .fst-italic {

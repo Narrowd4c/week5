@@ -1,5 +1,16 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"); /*!
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.logo {
+  background: url("../../images/logo-ANSWER.svg") no-repeat;
+  width: 151px;
+  height: 40px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -231,7 +242,7 @@ sup {
 
 a {
   color: #212529;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #1a1e21;
@@ -3161,7 +3172,6 @@ textarea.form-control-lg {
   line-height: 1.5;
   color: #212529;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
@@ -3674,7 +3684,7 @@ textarea.form-control-lg {
 .btn-link {
   font-weight: 400;
   color: #212529;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:hover {
   color: #1a1e21;
@@ -3977,7 +3987,6 @@ textarea.form-control-lg {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
@@ -4172,7 +4181,6 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -4305,7 +4313,6 @@ textarea.form-control-lg {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  text-decoration: none;
   white-space: nowrap;
 }
 .navbar-nav {
@@ -5227,7 +5234,6 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -5543,7 +5549,6 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
-  text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
@@ -8442,7 +8447,7 @@ textarea.form-control-lg {
 }
 
 .fs-8 {
-  font-size: 0.25rem !important;
+  font-size: 0.75rem !important;
 }
 
 .fst-italic {
@@ -12210,6 +12215,10 @@ img {
      object-fit: cover;
   height: auto;
   vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
 }
 
 h2,
