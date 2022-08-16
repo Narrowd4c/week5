@@ -288,7 +288,7 @@ $body-text-align:           null !default;
 // Style anchor elements.
 
 $link-color:                              $gray-900 !default;
-$link-decoration:                         null !default;
+$link-decoration:                         none !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;
@@ -450,7 +450,7 @@ $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 $h7-font-size:                $font-size-base * 0.875 !default;
-$h8-font-size:                $font-size-base * 0.25 !default;
+$h8-font-size:                $font-size-base * 0.75 !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
